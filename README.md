@@ -15,12 +15,15 @@ The final system featured a **3-band graphic equalizer**, a **Class-D amplifier*
 - **Displays**: OLED + TFT SPI LCD  
 
 ## Repo Structure
-- `demo/` → System demonstration videos
-- `figures/` → Key design and implementation images  
-  - High-level system design diagram  
-  - Annotated breadboard circuit of equalizer & Class-D amplifier
-  - Annotated breadboard Speaker and headphone connections
-  - OLED display screen
+- **demos/** → System demonstration videos
+  - [1_demo_speaker.mov](./demos/1_demo_speaker.mov) – Demo of speaker output
+  - [2_OLED_display.mov](./demos/2_OLED_display.mov) – Demo of OLED display visualization
+  - [3_demo_headphones.mov](./demos/3_demo_headphones.mov) – Demo of headphone output
+- **figures/** → Key design and implementation images
+  - [01_design_diagram.png](./figures/01_design_diagram.png) – High-level system design diagram
+  - [02_breadboard_equalizer+amplifier.png](./figures/02_breadboard_equalizer+amplifier.png) – Annotated breadboard circuit of equalizer & Class-D amplifier
+  - [03_speaker_headphones_connections.png](./figures/03_speaker_headphones_connections.png) – Annotated breadboard speaker and headphone connections
+  - [04_OLED_display.png](./figures/04_OLED_display.png) – OLED display screen
 
 ## Validation
 - Frequency responses of each BPF matched simulation within <2 dB ripple  
